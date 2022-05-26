@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="babb3f0f-ac74-4bc6-9f7b-7e94d9b5094e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "D:/Users/ganal/WebstormProjects/bike101.me",
+    "last_opened_file_path": "D:/Users/ganal/WebstormProjects/WSFinal_Project",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -50,7 +51,7 @@
       <updated>1653544474654</updated>
       <workItem from="1653544476909" duration="336000" />
       <workItem from="1653544846177" duration="822000" />
-      <workItem from="1653546470414" duration="760000" />
+      <workItem from="1653546470414" duration="2286000" />
     </task>
     <servers />
   </component>
