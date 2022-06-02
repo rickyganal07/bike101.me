@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BIKE 101</title>
 
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>BIKE 101</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" rel="stylesheet"  media="screen">
@@ -18,18 +20,26 @@
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
-
-    <header id="header">
-        <div class="container">
-            <img src="img/gray.png" alt="Bike 101" height="100" width="200">
-            <img src="img/gray.png" alt="Bike 101" height="100" width="490">
+<header id="header">
+    <nav class="navbar-collapse">
+        <div class="navbar navbar-expand-lg">
+            <img src="img/logo_var2_white.png" width="200" height="75" class="d-inline-block align-top" alt="logo">
+            <ul class="navbar-nav mx-auto">
+                <li><a class="nav-link active" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#cleaning">Cleaning</a></li>
+                <li><a class="nav-link" href="#blog">Repair</a></li>
+                <li><a class="nav-link" href="#maintenance">Maintenance</a></li>
+                <li><a class="nav-link" href="#others">Others</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <form class="form-inline mx-auto my-auto my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="bi-search"></i></button>
+            </form>
+            </div>
         </div>
-    </header>
-
-<center>
-    <img src="img/gray.png" alt="Bike 101" height="100" width="80%">
-</center>
-
-
+    </nav>
+</header>
 </body>
 </html>
