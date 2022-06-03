@@ -236,3 +236,61 @@ button {
     top: 0;
     right: 225px;
 }
+
+
+
+/*--------------------------------------------------------------
+# Header Title
+--------------------------------------------------------------*/
+
+.header-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: red;
+    text-align: center;
+}
+
+
+/*--------------------------------------------------------------
+# Body Item
+--------------------------------------------------------------*/
+
+.body-item {
+    background-color: blue;
+    margin: 0;
+}
+
+.body-item-text {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.body-item-text-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.body-item-image {
+    padding: 0;
+}
+.body-item-image-2 {
+    padding: 0;
+}
+
+.item-spacing {
+    width: auto;
+    height: 70px;
+    background-color: green;
+}
+
+.footer {
+    padding: 0;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    width: auto;
+    height: 70px;
+}
