@@ -1,0 +1,30 @@
+
+/*--------------------------------------------------------------
+Body
+--------------------------------------------------------------*/
+
+.body-content-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: red;
+}
+
+.body-content {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: blue;
+}
+
+body-content-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    alignment: center;
+    text-align: justify;
+}
+.body-content-text {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+
