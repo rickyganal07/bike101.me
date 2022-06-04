@@ -299,3 +299,20 @@ button {
     width: auto;
     height: 70px;
 }
+
+.footer-form {
+    position: relative;
+}
+
+.footer-input {
+    width: 100%;
+    padding-right: 40px;
+    outline-color: #000000;
+}
+
+.footer-button {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 295px;
+}
