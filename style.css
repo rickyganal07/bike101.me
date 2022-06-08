@@ -79,7 +79,7 @@ Header
     margin: 0;
 }
 
-#header .social-links a {
+#header a {
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -91,10 +91,6 @@ Header
     border-radius: 50%;
     width: 40px;
     height: 40px;
-}
-
-#header .social-links a:hover {
-    background: #435600;
 }
 
 @media (max-width: 992px) {
@@ -217,6 +213,37 @@ Header
     color: #ffffff;
 }
 
+.navbar-img {
+    position: relative;
+    text-align: center;
+}
+
+.top-left, .left, .left-2, .bottom-left {
+    position: absolute;
+    font-size: 150px;
+    color: rgba(256, 256, 256, 1);
+}
+
+.top-left {
+    top: 20%;
+    left: 16px;
+}
+.left {
+    top: 50%;
+    left: 210px;
+    transform: translate(-50%, -50%);
+}
+
+.left-2 {
+    top: 67%;
+    left: 170px;
+    transform: translate(-50%, -50%);
+}
+.bottom-left {
+    bottom: 8px;
+    left: 16px;
+}
+
 /*--------------------------------------------------------------
 # Search Form
 --------------------------------------------------------------*/
@@ -246,7 +273,7 @@ button {
 .header-title {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: red;
+    background-color: rgba(254, 254, 250, 1);
     text-align: center;
 }
 
@@ -256,8 +283,11 @@ button {
 --------------------------------------------------------------*/
 
 .body-item {
-    background-color: blue;
+    background-color: rgba(171, 173, 181, 0.9);
     margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .body-item-text {
@@ -265,12 +295,21 @@ button {
     margin-top: 20px;
     margin-bottom: 20px;
     height: auto;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.body-item-p {
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgba(0, 0, 0, 0.8)
 }
 
 .body-item-text-2 {
     margin-top: 20px;
     margin-bottom: 20px;
     height: auto;
+    color: rgba(0, 0, 0, 0.8)
 }
 
 .body-item-image {
@@ -283,36 +322,14 @@ button {
 .item-spacing {
     width: auto;
     height: 70px;
-    background-color: green;
+    background-color: rgba(74, 78, 89, 0.9);
+}
+
+.body-item-button{
+    background-color: rgba(74, 78, 89, 0.9);
+
 }
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
-
-.footer {
-    padding: 0;
-    margin-top: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: saturate(180%) blur(20px);
-    width: auto;
-    height: 70px;
-}
-
-.footer-form {
-    position: relative;
-}
-
-.footer-input {
-    width: 100%;
-    padding-right: 40px;
-    outline-color: #000000;
-}
-
-.footer-button {
-    width: 50px;
-    position: absolute;
-    top: 0;
-    right: 295px;
-}
