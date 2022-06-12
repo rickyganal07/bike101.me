@@ -5,13 +5,14 @@
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>BIKE 101 | Home </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" rel="stylesheet"  media="screen">
+    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" media="screen"
+          rel="stylesheet">
 
     <!-- Index Stylesheet -->
-    <link href="style.css" rel="stylesheet" media="screen">
+    <link href="style.css" media="screen" rel="stylesheet">
 
 </head>
 <body>
@@ -23,7 +24,9 @@
 <header>
     <nav class="navbar-collapse">
         <div class="navbar navbar-expand-lg">
-            <img src="img/logo_var2_white.png" width="200" height="75" class="d-inline-block align-top mx-4" alt="logo">
+            <a href="index.html">
+                <img alt="logo" class="d-inline-block align-top mx-4" height="75" src="img/logo_var2_white.png" width="200">
+            </a>
             <ul class="navbar-nav mx-md-5">
                 <li><a class="nav-link active" href="index.html">Home</a></li>
                 <li><a class="nav-link" href="cleaning.html">Cleaning</a></li>
@@ -32,8 +35,9 @@
                 <li><a class="nav-link" href="about.html">About</a></li>
             </ul>
             <form class="form-inline mx-auto my-auto my-lg-0">
-                <input class="form-control mr-sm-2 mx-3" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0 nav-button" type="submit"><i class="bi-search"></i></button>
+                <input aria-label="Search" class="form-control mr-sm-2 mx-3" placeholder="Search" type="search">
+                <button class="btn btn-outline-light my-2 my-sm-0 nav-button" type="submit"><i class="bi-search"></i>
+                </button>
             </form>
         </div>
         <div class="navbar-img">
@@ -47,26 +51,29 @@
     </nav>
 </header>
 
-    <div class="header-title">
-                <img src="img/logo_var2_straight.png" width="200" height="70">
-                <h2 class="text-center">Bike Repair and Maintenance</h2>
-                <p class="text-center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec euismod, nisl eget consectetur sagittis, nisl nunc
-                    consectetur nisi, euismod aliquam nisl nunc eget nisi.
-                </p>
-    </div>
+<div class="header-title">
+    <img height="70" src="img/logo_var2_straight.png" width="200">
+    <h2 class="text-center">Bike Cleaning, Repair and Maintenance Guides</h2>
+    <p class="text-center">
+        Bike101.me is your ultimate resource for information on cleaning,
+        maintaining, repairing and riding bikes of all sizes and types.
+
+    </p>
+</div>
 
 <div class="body-item row">
-    <div class= "body-item-image col-sm-6">
-        <img src="img/home.jpg" class="img-fluid">
+    <div class="body-item-image col-sm-6">
+        <img class="img-fluid" src="img/home.jpg">
     </div>
     <div class="body-item-text col-sm-6">
         <h2>Cleaning</h2>
-        <p class="body-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa.</p>
+        <p class="body-item-p">
+            A clean bike is a happy bike, and a clean cycle is the best way to prevent the build-up of grime
+            that can cause potential problems for components and make life harder for you.
+        </p>
         <br>
         <br>
-        <a class="btn btn-secondary body-item-button" href="#" role="button">Read More</a>
+        <a class="btn btn-secondary body-item-button" href="cleaning.html" role="button">Read More</a>
     </div>
 
 </div>
@@ -76,35 +83,61 @@
 <div class="body-item row">
     <div class="body-item-text-2 col-sm-6">
         <h2>Repair</h2>
-        <p class="body-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa.</p>
+        <p class="body-item-p">
+            Learn how to fix your bicycle easily. Go over all bike repair topics, from changing tubes to
+            changing bottom brackets. Bikes are great, but they can be complicated.
+            Let's make them simple again!
+        </p>
         <br>
         <br>
-        <a class="btn btn-secondary body-item-button" href="#" role="button">Read More</a>
+        <a class="btn btn-secondary body-item-button" href="repair.html" role="button">Read More</a>
     </div>
 
-    <div class= "body-item-image-2 col-sm-6">
-        <img src="img/home.jpg" class="img-fluid">
+    <div class="body-item-image-2 col-sm-6">
+        <img class="img-fluid" src="img/home.jpg">
     </div>
 </div>
 
 
 </div>
 
+<div class="item-spacing"></div>
 
+<div class="body-item row">
+    <div class="body-item-image col-sm-6">
+        <img class="img-fluid" src="img/home.jpg">
+    </div>
+    <div class="body-item-text col-sm-6">
+        <h2>Maintenance</h2>
+        <p class="body-item-p">
+            Do you want to maintain the pristine condition of your bike? Or do you consider yourself a
+            beginner and would like more information? On bike101.me, thousands of videos provide in-
+            depth explanations of basic and advanced bicycle maintenance.
 
+        </p>
+        <br>
+        <br>
+        <a class="btn btn-secondary body-item-button" href="maintenance.html" role="button">Read More</a>
+    </div>
+
+</div>
 
 <footer class="text-center text-lg-start">
     <div class="container d-flex justify-content-center py-5">
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);">
+        <button class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);"
+                type="button">
             <i class="bi bi-facebook"></i>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);">
+        <button class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);"
+                type="button">
             <i class="bi bi-youtube"></i>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);">
+        <button class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);"
+                type="button">
             <i class="bi bi-instagram"></i>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);">
+        <button class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);"
+                type="button">
             <i class="bi bi-twitter"></i>
         </button>
     </div>
@@ -112,13 +145,10 @@
     <!-- Copyright -->
     <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2022 Copyright:
-        <img src="img/logo_var2_white_straight.png" width="100" height="37.5">
+        <img height="37.5" src="img/logo_var2_white_straight.png" width="100">
     </div>
     <!-- Copyright -->
 </footer>
-
-
-
 
 
 </body>
