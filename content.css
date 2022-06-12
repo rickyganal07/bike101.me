@@ -36,11 +36,19 @@ body-content-item {
     backdrop-filter: blur(60%);
 }
 
-.top-left-2, .left-2, .left-2-2, .bottom-left-2 {
+.nav-design {
     position: absolute;
     font-size: 150px;
     color: rgba(256, 256, 256, 1);
 }
+
+
+
+/*--------------------------------------------------------------
+Cleaning
+--------------------------------------------------------------*/
+
+
 
 .top-left-2 {
     top: 20%;
@@ -61,3 +69,56 @@ body-content-item {
     bottom: 8px;
     left: 16px;
 }
+
+
+/*--------------------------------------------------------------
+Repair
+--------------------------------------------------------------*/
+.top-left-3 {
+    top: 35%;
+    left: 16px;
+}
+.left-3 {
+    top: 60%;
+    left: 285px;
+    transform: translate(-50%, -50%);
+}
+
+.left-2-3 {
+    top: 75%;
+    left: 310px;
+    transform: translate(-50%, -50%);
+}
+.bottom-left-3 {
+    bottom: 0px;
+    left: 26px;
+}
+
+/*--------------------------------------------------------------
+Maintenance
+--------------------------------------------------------------*/
+
+.top-left-4 {
+    top: 35%;
+    left: 16px;
+}
+
+.left-4 {
+    top: 60%;
+    left: 285px;
+    transform: translate(-50%, -50%);
+}
+
+.left-2-4 {
+    top: 75%;
+    left: 180px;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-left-4 {
+    bottom: 0px;
+    left: 26px;
+}
+
+
+

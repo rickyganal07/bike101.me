@@ -257,7 +257,7 @@ input {
     padding-right: 40px;
 }
 
-button {
+.nav-button {
     width: 50px;
     position: absolute;
     top: 0;
@@ -333,3 +333,7 @@ button {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+}

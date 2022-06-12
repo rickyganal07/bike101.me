@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="babb3f0f-ac74-4bc6-9f7b-7e94d9b5094e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleaning.css" beforeDir="false" afterPath="$PROJECT_DIR$/content.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cleaning.html" beforeDir="false" afterPath="$PROJECT_DIR$/cleaning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/content.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maintenance.html" beforeDir="false" afterPath="$PROJECT_DIR$/maintenance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair.html" beforeDir="false" afterPath="$PROJECT_DIR$/repair.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/ganal/WebstormProjects/Portfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/ganal/WebstormProjects/CSS_Hyperlinks&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -80,6 +83,12 @@
       <workItem from="1654684261874" duration="6286000" />
       <workItem from="1654758531049" duration="6557000" />
       <workItem from="1654766594136" duration="1747000" />
+      <workItem from="1654827055565" duration="1028000" />
+      <workItem from="1654853686410" duration="603000" />
+      <workItem from="1654857374154" duration="615000" />
+      <workItem from="1654952806733" duration="252000" />
+      <workItem from="1655001282052" duration="13000" />
+      <workItem from="1655027485906" duration="3333000" />
     </task>
     <servers />
   </component>
