@@ -4,8 +4,8 @@ Body
 --------------------------------------------------------------*/
 
 .body-content-title {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background: rgba(254, 254, 250, 1);
     text-align: center;
 }
@@ -120,5 +120,60 @@ Maintenance
     left: 26px;
 }
 
+/*--------------------------------------------------------------
+Side Nav Bar
+--------------------------------------------------------------*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 80%;
+    margin: 2rem auto;
+}
+
+/* Styling grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 50fr));
+    grid-gap: 2rem;
+}
+
+
+.div-grid {
+    background: #eee;
+    height: auto;
+    /* center the text */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.article {
+    background: #eee;
+    flex-grow: 999;
+    flex-basis: 0;
+}
+
+.sticky {
+    background: #eee;
+    height: 15rem;
+    width: 15rem;
+    flex-grow: 1;
+    flex-basis: 300px;
+    position: sticky;
+    top: 2rem;
+    /* center the text */
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
 

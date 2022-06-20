@@ -4,12 +4,12 @@
     <list default="true" id="babb3f0f-ac74-4bc6-9f7b-7e94d9b5094e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cleaning.html" beforeDir="false" afterPath="$PROJECT_DIR$/cleaning.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/BIKE_ICON2_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/BIKE_ICON2_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/BIKE_ICON_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/BIKE_ICON_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maintenance.html" beforeDir="false" afterPath="$PROJECT_DIR$/maintenance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mountainbike.html" beforeDir="false" afterPath="$PROJECT_DIR$/mountainbike.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair.html" beforeDir="false" afterPath="$PROJECT_DIR$/repair.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roadbike.html" beforeDir="false" afterPath="$PROJECT_DIR$/roadbike.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.15.1&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.11.39&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/ganal/WebstormProjects/CSS_Hyperlinks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/ganal/Downloads/Compressed/sticky-sidebar-main&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -104,7 +104,10 @@
       <workItem from="1655200947314" duration="32000" />
       <workItem from="1655290141045" duration="812000" />
       <workItem from="1655293001382" duration="1674000" />
-      <workItem from="1655545530615" duration="2112000" />
+      <workItem from="1655545530615" duration="11081000" />
+      <workItem from="1655645246091" duration="1549000" />
+      <workItem from="1655647541350" duration="22463000" />
+      <workItem from="1655708932042" duration="339000" />
     </task>
     <servers />
   </component>

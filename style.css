@@ -225,17 +225,17 @@ Header
 }
 
 .top-left {
-    top: 20%;
+    top: -5%;
     left: 16px;
 }
 .left {
-    top: 50%;
+    top: 35%;
     left: 210px;
     transform: translate(-50%, -50%);
 }
 
 .left-2 {
-    top: 67%;
+    top: 57%;
     left: 170px;
     transform: translate(-50%, -50%);
 }
@@ -275,6 +275,8 @@ input {
     padding-bottom: 20px;
     background-color: rgba(254, 254, 250, 1);
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
@@ -288,12 +290,16 @@ input {
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 .body-item-text {
 
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     height: auto;
     color: rgba(0, 0, 0, 0.8)
 }
@@ -302,13 +308,6 @@ input {
     text-align: justify;
     padding-left: 40px;
     padding-right: 40px;
-    color: rgba(0, 0, 0, 0.8)
-}
-
-.body-item-text-2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: auto;
     color: rgba(0, 0, 0, 0.8)
 }
 
@@ -322,7 +321,13 @@ input {
 .item-spacing {
     width: auto;
     height: 70px;
-    background-color: rgba(74, 78, 89, 0.9);
+    background-color: rgba(254, 254, 250, 1) ;
+}
+
+.item-spacing-haft {
+    width: auto;
+    height: 35px;
+    background-color: rgba(254, 254, 250, 1);
 }
 
 .body-item-button{
@@ -333,6 +338,124 @@ input {
 .icon {
     height: 500px;
     width: 500px;
+}
+
+.list-nobutton {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-indent: 35px;
+}
+
+/*--------------------------------------------------------------
+Sticky Nav
+--------*/
+
+.et-hero-tabs {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 70px;
+    position: relative;
+    background: rgba(254, 254, 250, 1);
+    text-align: center;
+    padding: 0 2em;
+}
+
+.et-slide {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 70vh;
+    position: relative;
+    background: rgba(254, 254, 250, 1);
+    text-align: center;
+    padding: 0;
+}
+.et-hero-tabs h1,
+.et-slide h1 {
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 1rem;
+}
+.et-hero-tabs h3,
+.et-slide h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+}
+.et-hero-tabs-container {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: rgba(74, 78, 89, 0.9);
+    z-index: 10;
+}
+.et-hero-tabs-container--top {
+    position: fixed;
+    top: 0;
+}
+.et-hero-tab {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    flex: 1;
+    color: #000;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+}
+.et-hero-tab:hover {
+    color: white;
+    background: rgba(102, 177, 241, 0.8);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.et-hero-tab-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #66B1F1;
+    -webkit-transition: left 0.3s ease;
+    transition: left 0.3s ease;
+}
+@media (min-width: 800px) {
+    .et-hero-tabs h1,
+    .et-slide h1 {
+        font-size: 3rem;
+    }
+    .et-hero-tabs h3,
+    .et-slide h3 {
+        font-size: 1rem;
+    }
+    .et-hero-tab {
+        font-size: 1rem;
+    }
 }
 
 /*--------------------------------------------------------------
