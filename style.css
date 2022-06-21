@@ -184,7 +184,7 @@ Header
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Work Sans Bold", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: rgba(256, 256, 256, 1);
@@ -281,8 +281,6 @@ input {
     padding-bottom: 20px;
     background-color: rgba(254, 254, 250, 1);
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 
@@ -302,7 +300,6 @@ input {
 .body-item-text {
 
     margin-top: 20px;
-    margin-bottom: 20px;
     margin-bottom: 20px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -567,7 +564,7 @@ Repair
     transform: translate(-50%, -50%);
 }
 .bottom-left-3 {
-    bottom: 0px;
+    bottom: 0;
     left: 26px;
 }
 
@@ -593,7 +590,7 @@ Maintenance
 }
 
 .bottom-left-4 {
-    bottom: 0px;
+    bottom: 0;
     left: 26px;
 }
 
