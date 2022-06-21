@@ -241,9 +241,11 @@ Header
 }
 
 .left-2 {
-    top: 57%;
-    left: 170px;
+    top: 70%;
+    left: 90px;
     transform: translate(-50%, -50%);
+    margin-left: -230px;
+    margin-top: 60px;
 }
 .bottom-left {
     bottom: 8px;
