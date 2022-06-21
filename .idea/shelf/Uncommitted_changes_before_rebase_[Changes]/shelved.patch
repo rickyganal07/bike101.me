@@ -1,0 +1,22 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*----------------------------------------------------------------------------------------------------------------------\r\nGeneral\r\n----------------------------------------------------------------------------------------------------------------------*/\r\n\r\nFont Used: Work Sans, Work Sans Bold\r\n\r\nTechnologies Used:\r\nHTML5\r\nCSS3\r\nJavaScript\r\nBootstrap
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision d3593f63a2f53876cccb0ef31120285440712f84)
++++ b/README.md	(date 1655780242434)
+@@ -8,4 +8,8 @@
+ HTML5
+ CSS3
+ JavaScript
+-Bootstrap
+\ No newline at end of file
++Bootstrap
++
++/*----------------------------------------------------------------------------------------------------------------------
++General
++----------------------------------------------------------------------------------------------------------------------*/
+\ No newline at end of file
