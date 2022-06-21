@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>BIKE 101 | About </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BIKE 101 | Home </title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" rel="stylesheet"  media="screen">
+    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" media="screen"
+          rel="stylesheet">
 
     <!-- Index Stylesheet -->
-    <link href="style.css" rel="stylesheet" media="screen">
-    <link href="content.css" rel="stylesheet" media="screen">
+    <link href="style.css" media="screen" rel="stylesheet">
 
 </head>
 <body>
+
+<!-- Bootstrap Javascript -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="./script.js"></script>
 
 <header>
     <nav class="navbar-collapse">
@@ -30,13 +35,110 @@
                 <li><a class="nav-link" href="maintenance.html">Maintenance</a></li>
                 <li><a class="nav-link active" href="about.html">About</a></li>
             </ul>
-            <form class="form-inline mx-auto my-auto my-lg-0 nav.form">
-                <input class="form-control mr-sm-2 mx-3" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0 nav-button" type="submit"><i class="bi-search"></i></button>
-            </form>
+            <p id="date"></p>
+            <p id="time"></p>
         </div>
     </nav>
 </header>
+
+<div class="header-title">
+    <h1 class="text-center">About</h1>
+    <img height="70" src="img/logo_var2_straight.png" width="200">
+
+    <h2 class="text-center">Bike Cleaning, Repair and Maintenance Guides</h2>
+    <p class="text-center">
+        Bike101.me is your ultimate resource for information on cleaning,
+        maintaining, repairing and riding bikes of all sizes and types.
+
+    </p>
+</div>
+
+<div class="body-item row">
+    <p></p>
+    <h1> Mission</h1>
+    <p></p>
+    <p class="container mission">
+        Bike101.me is dedicated to delivering unbiased information on a diverse range of bicycle-related topics. Our goal is to help you maintain and enjoy your
+        bike by providing reliable, expert advice, written in plain English, to which you can always refer.
+        <br>
+        <br>
+        Helping bike owners enjoy their gear for longer by empowering them with tips and resources for cleaning, repairing and maintaining bikes, along with
+        recommendations on bike-friendly products, retailers and riding locations.
+        <br>
+        <br>
+        Create the best, most thorough and easy-to-read guidelines on how to clean and tune your bike.
+    </p>
+</div>
+
+<div class="item-spacing-haft"></div>
+
+<div class="body-item row">
+    <p></p>
+    <h1 class="text-center"> THE TEAM</h1>
+    <div class="about-infos col-sm-6">
+    <img class="about-image img-fluid" src="img/viray.jpg">
+        <p></p>
+        <h6>Site Design / Documentation</h6>
+        <p>Mary Divine Viray</p>
+
+    </div>
+    <div class="about-infos col-sm-6">
+        <img class="about-image img-fluid" src="img/ganal.jfif">
+        <p></p>
+        <h6>Website Developer</h6>
+        <p>Ricky Ganal</p>
+
+    </div>
+
+</div>
+
+</div>
+
+<div class="item-spacing-haft"></div>
+
+<div class="body-item row">
+    <p></p>
+<h1> Special Thanks to:</h1>
+    <img class="about-image-2 img-fluid" src="img/freepik.png">
+    <p></p>
+    <h6>Freepik</h6>
+    <p>No Copyright Images</p>
+</div>
+
+
+</div>
+
+<div class="item-spacing"></div>
+
+
+<footer class="text-center text-lg-start">
+    <div class="container d-flex justify-content-center py-5">
+        <button class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);"
+                type="button">
+            <i class="bi bi-facebook"></i>
+        </button>
+        <button class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);"
+                type="button">
+            <i class="bi bi-youtube"></i>
+        </button>
+        <button class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);"
+                type="button">
+            <i class="bi bi-instagram"></i>
+        </button>
+        <button class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: rgba(74, 78, 89, 0.9);"
+                type="button">
+            <i class="bi bi-twitter"></i>
+        </button>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <img height="37.5" src="img/logo_var2_white_straight.png" width="100">
+    </div>
+    <!-- Copyright -->
+</footer>
+
 
 </body>
 </html>
