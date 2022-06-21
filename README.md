@@ -49,12 +49,12 @@ Site Navigation
 ----------------------------------------------------------------------------------------------------------------------_/
 
 index.html (homepage)
-cleaning.html(subpage)
-mountainbike.html#mtb_cleaning(anchors)
+    cleaning.html(subpage)
+        mountainbike.html#mtb_cleaning(anchors)
 repair.html(subpage)
-mountainbike.html#mtb_repair(anchors)
+    mountainbike.html#mtb_repair(anchors)
 maintenance.html(subpage)
-mountainbike.html#mtb_maintenace(anchors)
+    mountainbike.html#mtb_maintenace(anchors)
 
 /_----------------------------------------------------------------------------------------------------------------------
 Functions
