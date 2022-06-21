@@ -14,7 +14,6 @@
 
     <!-- Index Stylesheet -->
     <link href="style.css" rel="stylesheet" media="screen">
-    <link href="content.css" rel="stylesheet" media="screen">
 
 
 </head>
@@ -29,7 +28,7 @@
     <nav class="navbar-collapse">
         <div class="navbar navbar-expand-lg">
             <a href="index.html">
-                <img alt="logo" class="d-inline-block align-top mx-4" height="75" src="img/logo_var2_white.png" width="200">
+                <img alt="logo" class="d-inline-block align-top mx-4" height="75" src="img/logo_var2_white.png" width="200" id="header">
             </a>
             <ul class="navbar-nav mx-md-5">
                 <li><a class="nav-link" href="index.html">Home</a></li>
@@ -38,10 +37,8 @@
                 <li><a class="nav-link" href="maintenance.html">Maintenance</a></li>
                 <li><a class="nav-link" href="about.html">About</a></li>
             </ul>
-            <form class="form-inline mx-auto my-auto my-lg-0 nav.form">
-                <input class="form-control mr-sm-2 mx-3" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0 nav-button" type="submit"><i class="bi-search"></i></button>
-            </form>
+            <p id="date"></p>
+            <p id="time"></p>
         </div>
         <div class="navbar-img-2">
             <img class="img-fluid" src="img/mountainbike.jpg">
@@ -69,13 +66,13 @@
     <section class="article">
         <div class="div-grid">
             <section class="mtb-cleaning" id="mtb_cleaning">
-
                 <div class="container body-content ">
                     <div class="container-fluid body-content-item row">
                         <div class="container body-content-text col-sm-6" >
                             <ul class="list-unstyled">
-                                <li>You will need the following tools to clean your mountain bike:</li>
+                                <li class="h4">You will need the following tools to clean your mountain bike:</li>
                                 <ul>
+                                    <br>
                                     <li>A brush (do not use hard bristles or steel wool)</li>
                                     <li>Soapy water (water and bike shampoo)</li>
                                     <li>Sponge</li>
@@ -90,28 +87,29 @@
                             </ul>
                         </div>
                         <div class="container body-content col-sm-6">
-                            <img src="img/home.jpg" class="container-fluid">
+                            <img src="img/bike-cleaning.jpg" class="container-fluid">
                         </div>
                     </div>
 
                     <div class="container-fluid body-content-item">
                         <div class="container body-content-text" >
                             <ul class="list-unstyled">
-                                <li>Steps in Cleaning Mountain Bike</li>
-                                <ul class="list-nobutton">
-                                    <li>Step 1: Spray water to the bike to prewash the bike to remove much of the dirt and mud as possible. Use a brush for stubborn dirt like the dirt in the tires </li>
-                                    <li>Step 2: Spray Bike degreaser to the cogs, derailleur, chain ring and even chain</li>
-                                    <li>Step 3: Brush the cogs, derailleur, chainring and chain. You could use toothbrush for hard to reach areas </li>
-                                    <li>Step 4: Rinse the bike and let the dirt drip from the bike </li>
-                                    <li>Step 5: Using a bucket fill it up and put some bike shampoo and foam it up</li>
-                                    <li>Step 6: Using Sponge and bike shampoo mixture clean the bike from wheels, cockpit, frame and other parts of the bike </li>
-                                    <li>Step 7: Rinse again the bicycle and let it dry</li>
-                                    <li>Step 8: Next is bike detailing with microfiber cloth and bike wax detail the frame to protect and shine it </li>
-                                    <li>Step 9: Lastly put some tire conditioner to the tires</li>
+                                <li class="h4">Steps in Cleaning Mountain Bike</li>
+                                <ul class="list-unstyled">
+                                    <br>
+                                    <li><b>Step 1:</b> Spray water to the bike to prewash the bike to remove much of the dirt and mud as possible. Use a brush for stubborn dirt like the dirt in the tires </li>
+                                    <li><b>Step 2:</b> Spray Bike degreaser to the cogs, derailleur, chain ring and even chain</li>
+                                    <li><b>Step 3:</b> Brush the cogs, derailleur, chainring and chain. You could use toothbrush for hard to reach areas </li>
+                                    <li><b>Step 4:</b> Rinse the bike and let the dirt drip from the bike </li>
+                                    <li><b>Step 5:</b> Using a bucket fill it up and put some bike shampoo and foam it up</li>
+                                    <li><b>Step 6:</b> Using Sponge and bike shampoo mixture clean the bike from wheels, cockpit, frame and other parts of the bike </li>
+                                    <li><b>Step 7:</b> Rinse again the bicycle and let it dry</li>
+                                    <li><b>Step 8:</b> Next is bike detailing with microfiber cloth and bike wax detail the frame to protect and shine it </li>
+                                    <li><b>Step 9:</b> Lastly put some tire conditioner to the tires</li>
                                 </ul>
                             </ul>
-
                         </div>
+
                     </div>
                 </div>
 
@@ -124,44 +122,102 @@
         <div class="div-grid">
             <section class="mtb-cleaning" id="mtb_repair">
                 <div class="container body-content">
-                    <div class="container-fluid body-content-item">
-                        <div class="container body-content-text" >
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type
-                            specimen book. It has survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was popularised in
-                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                            and more recently with desktop publishing software like Aldus PageMaker
-                            including versions of Lorem Ipsum.
-                        </div>
+                    <div class="container-fluid body-content-text">
+                        <ul class="list-unstyled">
+                            <li class="h4">How to Patch a Tire</li>
+                            <ul class="list-unstyled">
+                                <br>
+                                <li><b>Step 1: </b>Pop out the tire, most common tires are either quick release or thru axle. if your tire is quick release you can easily pop the wheel out of the frame without any tools</li>
+                                <li><b>Step 2: </b>Open the tire valve and let the remaining air out of the tire</li>
+                                <li><b>Step 3: </b>Wedge two or three tire levers under the edge of the tires, until it pops out of the wheel rim but you could also use your hands but you need a powerful hands to do so</li>
+                                <li><b>Step 4: </b>Take out the inner tube, being sure to lift the tube over the valve also this is the great time to find any debris or sharp objects that could pierce through your tires</li>
+                                <li><b>Step 5: </b>Using a Patch Kit, patch the hole and firmly press the patch</li>
+                                <li><b>Step 6: </b>Stick the tire edge to the bike rim, and use a bike pump to inflate the bike rim</li>
+                                <li><b>Step 7: </b>Put back the tire valve and bring the tires back to your bike</li>
+                                <li><b>Side Note: </b>Some tire patch are only a temporary fix to your punctured interior tube. It is always best to replace the punctured inner tube</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="container body-content">
+                        <img src="img/patch-tire.jpg" class="container-fluid">
+                    </div>
+                </div>
+
+                <div class="container-fluid body-content-item row">
+                    <div class="container body-content-text col-sm-6" >
+                        <ul class="list-unstyled">
+                            <li class="h4">How to Tune MTB Gears</li>
+                            <ul>
+                                <br>
+                                <li><b>Step 1: </b>Remove the chain using missing link or chain removal tool</li>
+                                <li><b>Step 2: </b>Adjust the barrel adjuster to the most hand tight</li>
+                                <li><b>Step 3: </b>Put the pully in index position using the high limit screw or the smallest cogs in the rear cogset</li>
+                                <li><b>Step 4: </b>Insert the shifter cable for the rear derailleur and also you will now insert the chain and use missing link or chain removal tool</li>
+                                <li><b>Step 5: </b>Change the gear up to the biggest cogs</li>
+                                <li><b>Step 6: </b>Adjust the low limit screw if it doesn't reach the biggest cogs</li>
+                                <li><b>Step 7: </b>You can also make do some micro adjustments using barrel adjuster</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="container body-content col-sm-6">
+                        <img src="img/bike-creation-workshop.jpg" class="container-fluid">
                     </div>
                 </div>
             </section>
         </div>
+
         <section class="item-spacing-haft"></section>
+
         <div class="div-grid">
             <section class="mtb-cleaning" id="mtb_maintenance">
                 <div class="container body-content">
-                    <div class="container-fluid body-content-item">
-                        <div class="container body-content-text" >
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type
-                            specimen book. It has survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was popularised in
-                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                            and more recently with desktop publishing software like Aldus PageMaker
-                            including versions of Lorem Ipsum.
-                        </div>
+                    <div class="container-fluid body-content-text">
+                        <ul class="list-unstyled">
+                            <li class="h4">How to Lube a Chain</li>
+                            <ul class="list-unstyled">
+                                <br>
+                                <li><b>Step 1: </b>It is best to lube a chain after bike washing, you can also use a bike chain cleaner to clean your chain</li>
+                                <li><b>Step 2: </b>There is two types of lube, Dry Lube and Wet Lube. A Dry Lube can be used in dry weathers while a Wet Lube can be used in wet season</li>
+                                <li><b>Step 3: </b>After picking a right lube for the weather, Drop some chain lube chain links by chain links</li>
+                                <li><b>Step 4: </b>Next let it dry for a few minutes and wipe the excess lube</li>
+                            </ul>
+                        </ul>
                     </div>
                 </div>
+
+                <div class="container-fluid body-content-item row">
+                    <div class="container body-content-text col-sm-6" >
+                        <ul class="list-unstyled">
+                            <li class="h4">Adjusting Brakes and Brake Pads</li>
+                            <ul>
+                                <br>
+                                <li><b>Step 1: </b> Most common type of breaks in mtb are Disc Brake, now we will to ensure that you have a great breaking power</li>
+                                <li><b>Step 2: </b> Release the brake line for brake calipers, Tighten the barrel adjuster to the most hand tight it can  </li>
+                                <li><b>Step 3: </b> Insert the brake line and ensure its tight in the brake calipers </li>
+                                <li><b>Step 4: </b> Tighten the brake line to the calipers</li>
+                                <li><b>Step 5: </b> Check the braking and do micro adjustments with the barrel adjuster</li>
+                                <li><b>Step 6: </b> Now check the brake pads if still thick and doesn't limit the braking power</li>
+                                <li><b>Step 7: </b> You can also check the rotor if it is also thick and don't bend</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="container body-content col-sm-6">
+                        <img src="img/front-adjust.jpg" class="container-fluid">
+                    </div>
+                </div>
+
+
+
+
+
+
+
             </section>
         </div>
     </section>
 
     <div class="sticky">
-        <a class="btn sticky-btn" href="mountainbike.html" role="button"><h4> Mountan Bike </h4></a>
+        <a class="btn sticky-btn" href="#header" role="button"><h4> Mountain Bike </h4></a>
         <a class="btn sticky-btn" href="#mtb_cleaning" role="button">Cleaning</a>
         <a class="btn sticky-btn" href="#mtb_repair" role="button">Repair</a>
         <a class="btn sticky-btn" href="#mtb_maintenance" role="button">Maintenance</a>
@@ -198,5 +254,8 @@
     </div>
     <!-- Copyright -->
 </footer>
+
+
+
 </body>
 </html>
